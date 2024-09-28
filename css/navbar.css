@@ -15,6 +15,8 @@ html, body, div, p, ul, li {
   background: rgba(255, 255, 255, 0.5);
   height: 60px; /* set same as height & line-height below */
   font-weight: bold
+  z-index: 1000;
+  position: fixed; 
 }
 
 /* This rule centers the nav items verticaly in the bar with the height and line height properties. Spacing between the nav items is controlled by setting right and left padding.  */
