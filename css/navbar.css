@@ -11,11 +11,13 @@ html, body, div, p, ul, li {
 
 /* This class is applied to the containing div <div class="nav"> and is used to set the background color and height of the navbar */
 .nav {
-  position: absolute;
-  margin: 0;
-  padding: 0;
-  border: 0;  
-  background: rgba(255, 255, 255, 0.5);
+  position: fixed;
+      top: 0;
+      right: 0;
+      background: rgba(255, 255, 255, 0.5);
+      height: 50px;
+      padding: 10px;
+      z-index: 1000;
   height: 60px; /* set same as height & line-height below */
 }
 
