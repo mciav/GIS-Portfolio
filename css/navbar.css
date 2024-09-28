@@ -34,6 +34,6 @@ html, body, div, p, ul, li {
 
 /* This rule is applied to the link <a> tag. It lets you turn off the link underline and set the link text color. */
 .nav-link {
-  color: #708090;
+  color: #000000;
   text-decoration: none;
 }
