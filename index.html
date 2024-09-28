@@ -1,43 +1,60 @@
-<!DOCTYPE html>
-<html lang="en">
-  
-  <!-- This is the Header of the Website in the Tab Bar -->
-    
+<!DOCTYPE html> 
+<html>
+    <html lang="en"> <!-- Web Language to be viewd as ENGLISH-->
+</html> 
+
+<!--Start of the Head Tag Section-->
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>GIS Portfolio | M. Senin</title>
+    <meta charset="UTF-8" /> <!-- UTF-8 is for the Symbology, commonly used Letters,numbers, words-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Can be viewed in different devices, likes phones, laptops-->
+    <title>mciav's Blog</title> <!-- Tittle of the TAB Bar in a Website-->
+
+    <!-- Notes: HEAD Tag is for non-visible part of the website-->
+     <!-- You can link CSS and Javascript here so they can follow the styles-->
 </head>
 
-  <body>
-  <header>
-    <h1>GIS Portfolio</h1>
-    <nav>
-      <a href="">Home</a>
-      <a href="">About</a>
-      <a href="">Gallery</a>
-      <a href="">Contact</a>
-    </nav>
-    <style>
-    body {
-      background-color: #f8f8f8; /* Gray color */
-      background-image: url(assets/Mangroves);
-      background-repeat: no-repeat;
-      background-position: center;
-      background-attachment: fixed;
-      background-size: cover;}
-  </style>
-    
-  </header>
+<!-- Start of the Body Tag Section-->
+<body>
+<article>
+    <header>
+        <h1> My HTML Journey</h1>
+    </header>
+    <p> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tenetur officia qui perferendis nobis voluptas? Harum consequatur dicta reiciendis voluptatem quae enim impedit porro, corporis facere culpa corrupti animi magni quaerat?</p>
+    <p> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tenetur officia qui perferendis nobis voluptas? Harum consequatur dicta reiciendis voluptatem quae enim impedit porro, corporis facere culpa corrupti animi magni quaerat?</p>
+    <p> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tenetur officia qui perferendis nobis voluptas? Harum consequatur dicta reiciendis voluptatem quae enim impedit porro, corporis facere culpa corrupti animi magni quaerat?</p>
+    <p> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tenetur officia qui perferendis nobis voluptas? Harum consequatur dicta reiciendis voluptatem quae enim impedit porro, corporis facere culpa corrupti animi magni quaerat?</p>
+    <p> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tenetur officia qui perferendis nobis voluptas? Harum consequatur dicta reiciendis voluptatem quae enim impedit porro, corporis facere culpa corrupti animi magni quaerat?</p>
+</article>
+   
+<footer>
+  <p>&copy; 2024 Your Company Name. All rights reserved.</p>
   
-  <main>
-    <p>This is the main content of my website.</p>    
-  </main>
+  <nav>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About Us</a></li>
+      <li><a href="contact.html">Contact</a></li>
+      <li><a href="privacy.html">Privacy Policy</a></li>
+    </ul>
+  </nav>
 
-  <footer>
-    <p>© 2024 My Webpage</p>
-  </footer>
+  <ul class="social-media">
+    <li><a href="https://facebook.com/yourpage" target="_blank">Facebook</a></li>
+    <li><a href="https://twitter.com/yourprofile" target="_blank">Twitter</a></li>
+    <li><a href="https://linkedin.com/yourprofile" target="_blank">LinkedIn</a></li>
+  </ul>
 
-  <script src="scripts.js"></script> <!-- Link to JavaScript file -->
+  <address>
+    <p>Email: <a href="mailto:info@yourcompany.com">info@yourcompany.com</a></p>
+    <p>Phone: +123 456 7890</p>
+  </address>
+
+  <form action="/subscribe" method="post">
+    <label for="email">Subscribe to our newsletter:</label>
+    <input type="email" id="email" name="email" placeholder="Enter your email">
+    <button type="submit">Subscribe</button>
+  </form>
+</footer>
+
 </body>
 </html>
