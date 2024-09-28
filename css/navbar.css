@@ -11,31 +11,18 @@ html, body, div, p, ul, li {
 
 /* This class is applied to the containing div <div class="nav"> and is used to set the background color and height of the navbar */
 .nav {
-  position: fixed;
-  top: 0; /* Position at the top */
-  right: 0; /* Position at the right */
-  background: rgba(255, 255, 255, 0.5); /* Translucent white background */
-  height: 50px; /* Adjust the height as needed */
-  width: auto; /* Width adjusts based on content */
-  padding: 10px; /* Add padding for some space inside */
-  z-index: 1000; /* Ensure it's above other content */
+  position: absolute;
+  background: rgba(255, 255, 255, 0.5);
+  height: 60px; /* set same as height & line-height below */
 }
 
-.nav ul {
-  list-style: none; /* Remove default list styling */
-  margin: 0;
-  padding: 0;
-  display: flex; /* Display links inline */
-}
-
-.nav ul li {
-  margin-left: 20px; /* Space between links */
-}
-
-.nav ul li a {
-  text-decoration: none; /* Remove underline from links */
-  color: #333; /* Set the link color */
-  font-size: 16px; /* Adjust font size */
+/* This rule centers the nav items verticaly in the bar with the height and line height properties. Spacing between the nav items is controlled by setting right and left padding.  */
+.nav li {
+  float:right
+  list-style: none;
+  height: 60px; /* should be the same as line-height */
+  line-height: 60px; /* should be the same as height */
+  padding: 0 40px; /* "0" sets top and bottom padding to none */
 }
 
 /* :hover allows you change the background color of the nav items when you mouse over them. Play around with the transition value to change the speed of the hover transition. */
