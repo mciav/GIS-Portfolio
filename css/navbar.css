@@ -27,7 +27,7 @@ html, body, div, p, ul, li {
 
 /* :hover allows you change the background color of the nav items when you mouse over them. Play around with the transition value to change the speed of the hover transition. */
 .nav li:hover {
-  background: red;
+  background: #d1ffbd;
   transition: background .3s;
 }
 
