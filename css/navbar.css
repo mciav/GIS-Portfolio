@@ -6,7 +6,7 @@ html, body, div, p, ul, li {
   font-size: 100%;
   font: inherit;
   vertical-align: baseline;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Arial', sans-serif; /* Fallbacks included */
   font-weight: 100;
 }
 
@@ -14,6 +14,8 @@ html, body, div, p, ul, li {
 .nav {
   background: #678056;
   height: 60px; /* set same as height & line-height below */
+  font-weight: bold
+  font-family: 'Helvetica', 'Arial', sans-serif; /* Fallbacks included */
 }
 
 /* This rule centers the nav items verticaly in the bar with the height and line height properties. Spacing between the nav items is controlled by setting right and left padding.  */
