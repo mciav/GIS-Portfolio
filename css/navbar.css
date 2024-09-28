@@ -8,7 +8,6 @@ html, body, div, p, ul, li {
   vertical-align: baseline;
   font-family: 'Helvetica', 'Arial', sans-serif; /* Fallbacks included */
   font-weight: 100;
-  float: right;
 }
 
 /* This class is applied to the containing div <div class="nav"> and is used to set the background color and height of the navbar */
@@ -17,7 +16,6 @@ html, body, div, p, ul, li {
   background: rgba(255, 255, 255, 0.5);
   height: 60px; /* set same as height & line-height below */
   font-weight: bold 
-  z-index: 1000;
 }
 
 /* This rule centers the nav items verticaly in the bar with the height and line height properties. Spacing between the nav items is controlled by setting right and left padding.  */
